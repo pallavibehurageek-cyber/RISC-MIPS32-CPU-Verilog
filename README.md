@@ -42,10 +42,10 @@ The processor is divided into five main stages:
 32-bit-Pipelined-RISC-Processor/
 │
 ├── README.md
-├── processor.v
-├── testbench_arithmetic.v
-├── testbench_memory.v
-└── testbench_loop.v
+├── five_stage_cpu_mips32.v
+├── arithmetic_testbench.v
+├── memory_testbench.v
+└── loop_control_testbench.v
 
 **Working Principle**
 Instructions move through the five pipeline stages in sequence:
